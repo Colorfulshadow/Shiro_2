@@ -211,22 +211,31 @@ const SayHi = () => {
       dangerouslySetInnerHTML={{
         __html: `var version = "${version}";
     (${function () {
-      console.log(
-        `%c Mix Space %c https://github.com/mx-space `,
-        'color: #fff; margin: 1em 0; padding: 5px 0; background: #2980b9;',
-        'margin: 1em 0; padding: 5px 0; background: #efefef;',
-      )
-      console.log(
-        `%c Shiro ${window.version} %c https://innei.in `,
-        'color: #fff; margin: 1em 0; padding: 5px 0; background: #39C5BB;',
-        'margin: 1em 0; padding: 5px 0; background: #efefef;',
+      console.info(
+        `%c                                                                            
+                                                                            
+                                                                            
+                               %c FBI WARNING %c                                
+                                                                            
+                                                                            
+%c        Federal Law provides severe civil and criminal penalties for        
+        the unauthorized reproduction,distribution, or exhibition of        
+         copyrighted motion pictures (Title 17, United States Code,         
+        Sections 501 and 508). The Federal Bureau of Investigation          
+         investigates allegations of criminal copyright infringement        
+                 (Title 17, United States Code, Section 506).               
+                                                                            
+                                                                            
+                                                                            
+`,
+        'background: #000; font-size: 18px; font-family: monospace',
+        'background: #f33; font-size: 18px; font-family: monospace; color: #eee; text-shadow:0 0 1px #fff',
+        'background: #000; font-size: 18px; font-family: monospace',
+        'background: #000; font-size: 18px; font-family: monospace; color: #ddd; text-shadow:0 0 2px #fff',
       )
 
       const motto = `
-This Personal Space Powered By Mix Space.
-Written by TypeScript, Coding with Love.
---------
-Stay hungry. Stay foolish. --Steve Jobs
+欢迎来到zty的随手记
 `
 
       if (document.firstChild?.nodeType !== Node.COMMENT_NODE) {
