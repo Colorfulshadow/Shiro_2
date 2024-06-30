@@ -223,7 +223,7 @@
     @apply !text-black;
   }
 }
-.cl-form,
+/*.cl-form,*/
 .cl-dividerRow {
   @apply !hidden;
 }
